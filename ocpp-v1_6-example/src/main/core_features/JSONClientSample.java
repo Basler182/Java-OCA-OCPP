@@ -1,10 +1,10 @@
 package core_features;
 
-import eu.chargetime.ocpp.IClientAPI;
-import eu.chargetime.ocpp.JSONClient;
-import eu.chargetime.ocpp.feature.profile.ClientCoreEventHandler;
-import eu.chargetime.ocpp.feature.profile.ClientCoreProfile;
-import eu.chargetime.ocpp.model.Request;
+import extrawest.ocpp.IClientAPI;
+import extrawest.ocpp.JSONClient;
+import extrawest.ocpp.feature.profile.ClientCoreEventHandler;
+import extrawest.ocpp.feature.profile.ClientCoreProfile;
+import extrawest.ocpp.model.Request;
 
 /*
  * ChargeTime.eu - Java-OCA-OCPP

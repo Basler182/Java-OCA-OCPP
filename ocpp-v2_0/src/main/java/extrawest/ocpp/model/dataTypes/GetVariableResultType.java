@@ -119,10 +119,12 @@ public class GetVariableResultType implements Validatable {
   @Override
   public boolean validate() {
     return requiredValidator.safeValidate(attributeStatus)
-        && requiredValidator.safeValidate(component)
-        && requiredValidator.safeValidate(variable)
-        && component.validate()
-        && variable.validate();
+            && (attributeStatus != GetVariableStatusEnumType.ACCEPTED
+            || requiredValidator.safeValidate(attributeValue))
+            && requiredValidator.safeValidate(component)
+            && requiredValidator.safeValidate(variable)
+            && component.validate()
+            && variable.validate();
   }
 
   @Override

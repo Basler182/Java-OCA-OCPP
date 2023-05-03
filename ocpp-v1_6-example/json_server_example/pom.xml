@@ -8,7 +8,7 @@
 		<version>2.5.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>eu.chargetime.ocpp</groupId>
+	<groupId>com.extrawest</groupId>
 	<artifactId>json-server-implementation </artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>json-server-implementation </name>

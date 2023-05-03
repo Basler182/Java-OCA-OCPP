@@ -1,10 +1,10 @@
 package core_features;
 
-import eu.chargetime.ocpp.IClientAPI;
-import eu.chargetime.ocpp.SOAPClient;
-import eu.chargetime.ocpp.feature.profile.ClientCoreEventHandler;
-import eu.chargetime.ocpp.feature.profile.ClientCoreProfile;
-import eu.chargetime.ocpp.model.Request;
+import extrawest.ocpp.IClientAPI;
+import extrawest.ocpp.SOAPClient;
+import extrawest.ocpp.feature.profile.ClientCoreEventHandler;
+import extrawest.ocpp.feature.profile.ClientCoreProfile;
+import extrawest.ocpp.model.Request;
 
 import java.net.URL;
 
